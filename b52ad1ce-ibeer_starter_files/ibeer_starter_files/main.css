@@ -21,14 +21,16 @@ h1, h2, h3{
     font-family: "Josefin Sans", sans-serif;
     margin-top: 0;
 }
-img{
+ img{
     max-width: 100%;
     padding: 0;
     margin: 0;
-    display: block;
+    display: block; 
 }
 .wrapper{
     width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
 
     /*
         TODO: 
@@ -36,6 +38,8 @@ img{
         - Create a flexbox containerer for
         the major page sections
     */
+    
+    
 }
 #site-header{
     /*
@@ -62,7 +66,7 @@ img{
 #site-header div h3{
     margin: 0;
     line-height: 1;
-    position: relative;
+    
 }
 #site-header div h1{
     top: 20px;
@@ -75,6 +79,7 @@ img{
         TODO: 
         - Use the script font: 'Dancing Script' fot this text
     */
+    font-family: Dancing Script;
 }
 #main-navigation{
     background: #444;
@@ -83,6 +88,8 @@ img{
         TODO: 
         - Use Flexbox to arrange the navigation links
     */
+    display: flex;
+    justify-content: space-around;
 }
 #main-navigation a{
     display: block;
@@ -102,7 +109,7 @@ img{
     /*
         TODO: 
         - Flexbox - The logo needs to take up more space
-        that the other links
+        than the other links
     */
 }
 main{
@@ -114,6 +121,8 @@ main{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    display: flex;
+    flex-wrap: wrap;
 }
 aside{
     padding: 20px;
@@ -124,6 +133,7 @@ aside{
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
+    
 }
 aside h3{
     text-align: center;
@@ -159,11 +169,17 @@ article time{
     color: #666;
 }
 article img{
+    float: float;
+    height: 200px;
+    width: 300px;
     /*
         TODO: 
         - Float article images to the right
         and match sizes and spacing to the mockup
     */
+    
+    
+    
 }
 article footer p{
     /*
@@ -179,6 +195,12 @@ article footer p{
         TODO: 
         - Style the site footer
     */
+}
+
+.test{
+    display:flex;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
