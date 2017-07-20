@@ -30,7 +30,8 @@ h1, h2, h3{
 .wrapper{
     width: 1000px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding: 0px 80px 50px 80px;
 
     /*
         TODO: 
@@ -60,12 +61,13 @@ h1, h2, h3{
     */
     background-image: url(/Users/hamiltonmoore/ironyard/front-end/projects/ibeer/b52ad1ce-ibeer_starter_files/ibeer_starter_files/img/header-img.jpg);
     background-size: cover;
-    background-position: right bottom;
+    background-position: center;
 }
 #site-header div h1,
 #site-header div h3{
     margin: 0;
     line-height: 1;
+    position: relative;
     
 }
 #site-header div h1{
@@ -97,6 +99,7 @@ h1, h2, h3{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+   
 
     /*
         TODO: 
@@ -122,7 +125,7 @@ main{
         - Use relative positioning to bump this upward
     */
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 aside{
     padding: 20px;
@@ -169,7 +172,7 @@ article time{
     color: #666;
 }
 article img{
-    float: float;
+    float: right;
     height: 200px;
     width: 300px;
     /*
@@ -201,6 +204,7 @@ article footer p{
     display:flex;
     max-width: 800px;
     margin: 0 auto;
+    transform: translateY(-3%);
 }
 
 
